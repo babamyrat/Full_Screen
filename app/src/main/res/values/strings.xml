@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Full Screen</string>
+    <string name="cherry">True</string>
+    <string name="no_cherry">False</string>
 </resources>

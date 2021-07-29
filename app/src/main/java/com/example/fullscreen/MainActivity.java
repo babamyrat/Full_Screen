@@ -16,6 +16,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.fullscreen.Step1.BaseActivity;
 import com.example.fullscreen.Step1.Step1Activity;
 import com.example.fullscreen.Step2.Step2Activity;
+import com.example.fullscreen.Step3.Step3Activity;
 import com.example.fullscreen.core.adapter.ExampleAdapter;
 import com.example.fullscreen.core.model.ExampleModel;
 
@@ -33,12 +34,10 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, Step1Activity.class);
+                Intent intent = new Intent(MainActivity.this, Step3Activity.class);
                 startActivity(intent);
             }
         });
-
-
 
     }
 
