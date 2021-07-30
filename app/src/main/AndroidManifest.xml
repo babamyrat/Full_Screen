@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FullScreen">
-        <activity android:name=".Step8.Step8Activity"></activity>
+        <activity android:name=".Step9.Step9Activity"></activity>
+        <activity android:name=".Step8.Step8Activity" />
         <activity android:name=".Step7.Step7Activity" />
         <activity android:name=".Step6.Step6Activity" />
         <activity android:name=".Step5.Step5Activity" />

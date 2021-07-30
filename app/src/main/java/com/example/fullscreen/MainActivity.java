@@ -17,6 +17,7 @@ import com.example.fullscreen.Step5.Step5Activity;
 import com.example.fullscreen.Step6.Step6Activity;
 import com.example.fullscreen.Step7.Step7Activity;
 import com.example.fullscreen.Step8.Step8Activity;
+import com.example.fullscreen.Step9.Step9Activity;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -28,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button button = findViewById(R.id.btnClick);
         button.setOnClickListener(view -> {
-            Intent intent = new Intent(MainActivity.this, Step8Activity.class);
+            Intent intent = new Intent(MainActivity.this, Step9Activity.class);
             startActivity(intent);
 
         });
