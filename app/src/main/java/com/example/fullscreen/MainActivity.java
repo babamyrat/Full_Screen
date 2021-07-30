@@ -10,6 +10,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.fullscreen.Step1.BaseActivity;
 import com.example.fullscreen.Step1.Step1Activity;
+import com.example.fullscreen.Step10.Step10Activity;
+import com.example.fullscreen.Step11.Step11Activity;
+import com.example.fullscreen.Step12.Step12Activity;
 import com.example.fullscreen.Step2.Step2Activity;
 import com.example.fullscreen.Step3.Step3Activity;
 import com.example.fullscreen.Step4.Step4Activity;
@@ -29,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button button = findViewById(R.id.btnClick);
         button.setOnClickListener(view -> {
-            Intent intent = new Intent(MainActivity.this, Step9Activity.class);
+            Intent intent = new Intent(MainActivity.this, Step12Activity.class);
             startActivity(intent);
 
         });
